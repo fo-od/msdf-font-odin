@@ -1,7 +1,5 @@
 package arfont
 
-import rl "vendor:raylib"
-
 Font :: struct {
 	atlas:   Atlas `json:"atlas"`,
 	name:    string `json:"name"`,
